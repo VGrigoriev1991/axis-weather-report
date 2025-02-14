@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Axis.WeatherReport.ConsoleApp", "Axis.WeatherReport.ConsoleApp\Axis.WeatherReport.ConsoleApp.csproj", "{EB43F943-8035-42EC-B0DD-977A86D15B01}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{F4C3E56C-2D70-4061-91BE-5226A143EFA3}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		Directory.Build.props = Directory.Build.props
+		Directory.Packages.props = Directory.Packages.props
+		README.md = README.md
+		.gitignore = .gitignore
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Axis.WeatherReport.ConsoleApp.UnitTests", "Axis.WeatherReport.ConsoleApp.UnitTests\Axis.WeatherReport.ConsoleApp.UnitTests.csproj", "{D465A219-A3C2-4ABF-BC42-7C3393C8ED73}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EB43F943-8035-42EC-B0DD-977A86D15B01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB43F943-8035-42EC-B0DD-977A86D15B01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB43F943-8035-42EC-B0DD-977A86D15B01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB43F943-8035-42EC-B0DD-977A86D15B01}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D465A219-A3C2-4ABF-BC42-7C3393C8ED73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D465A219-A3C2-4ABF-BC42-7C3393C8ED73}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D465A219-A3C2-4ABF-BC42-7C3393C8ED73}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D465A219-A3C2-4ABF-BC42-7C3393C8ED73}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
